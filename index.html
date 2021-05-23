@@ -8,88 +8,305 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="./img/devchallenges.png" />
 
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+    <!-- Bootstrap CSS -->
     <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
     />
 
-    <title>Devchallenges</title>
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/query.css" />
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>Recipe Page</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
+    <div class="content">
+      <header class="header">
+        <h1 class="top-heading">Classic Cheesecake Recipe</h1>
+        <div class="top-p">
+          <svg
+            width="13"
+            height="8"
+            viewBox="0 0 13 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-        </h1>
+            <circle cx="1.5" cy="1.5" r="1.5" fill="#C4C4C4" />
+            <circle cx="1.5" cy="6.5" r="1.5" fill="#C4C4C4" />
+            <circle cx="6.5" cy="1.5" r="1.5" fill="#C4C4C4" />
+            <circle cx="6.5" cy="6.5" r="1.5" fill="#C4C4C4" />
+            <circle cx="11.5" cy="1.5" r="1.5" fill="#C4C4C4" />
+            <circle cx="11.5" cy="6.5" r="1.5" fill="#C4C4C4" />
+          </svg>
 
+          <p class="intro">
+            Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a
+            buttery graham cracker crust, no one can deny its simple decadence. For the best
+            results, bake in a water bath.
+          </p>
+        </div>
+
+        <figure class="img-area">
+          <img src="./img/photo1.png" alt="" />
+        </figure>
+      </header>
+      <main class="main">
+        <!-- Schedule section -->
+        <div class="schedule">
+          <div class="sch-item sch-item-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              fill="#000000"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M8.1 13.34l2.83-2.83L3.91 3.5c-1.56 1.56-1.56 4.09 0 5.66l4.19 4.18zm6.78-1.81c1.53.71 3.68.21 5.27-1.38 1.91-1.91 2.28-4.65.81-6.12-1.46-1.46-4.2-1.1-6.12.81-1.59 1.59-2.09 3.74-1.38 5.27L3.7 19.87l1.41 1.41L12 14.41l6.88 6.88 1.41-1.41L13.41 13l1.47-1.47z"
+              />
+            </svg>
+            <div class="sch-item-text">
+              <p class="faint">Yields</p>
+              <p class="orange">12 servings</p>
+            </div>
+          </div>
+          <div class="sch-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              fill="#000000"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+              />
+            </svg>
+            <div class="sch-item-text">
+              <p class="faint">Prep TIme</p>
+              <p class="bolded">45 minutes</p>
+            </div>
+          </div>
+          <div class="sch-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              fill="#000000"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+              />
+            </svg>
+            <div class="sch-item-text">
+              <p class="faint">Cook TIme</p>
+              <p class="bolded">1 hour</p>
+            </div>
+          </div>
+          <div class="sch-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              fill="#000000"
+            >
+              <path d="M0 0h24v24H0V0z" fill="none" />
+              <path
+                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+              />
+            </svg>
+            <div class="sch-item-text">
+              <p class="faint">Total TIme</p>
+              <p class="bolded">7,75 hours</p>
+            </div>
+          </div>
+        </div>
+        <!-- Ingredients section -->
+        <div class="sec-main">
+          <h2 class="mid-heading">Ingredients</h2>
+          <h3 class="mid-sm-heading">Graham Cracker Crust</h3>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              1 and 1/2 cups (150g) <span class="bolded">graham cracker crumbs</span> (about 10 full
+              sheet graham crackers)</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              5 Tablespoons (70g) <span class="bolded">unsalted butter, </span>melted</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              1/4 cup (50g)<span class="bolded"> granulated sugar</span></label
+            >
+          </div>
+          <h3 class="mid-sm-heading">Cheesecake</h3>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              four 8-ounce blocks (904g) full-fat <span class="bolded">cream cheese,</span> softened
+              to room temperature</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              1 cup (2000g) <span class="bolded">granulated sugar</span></label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              1 cup (240g) full-fat<span class="bolded">sour cream,</span>at room temperature</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              1 teaspoon<span class="bolded">pure vanilla extract</span></label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              3 teaspoon<span class="bolded">fresh lemon juice</span>(optional, but
+              recommended)</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              3 large <span class="bolded"> eggs, </span>at room temperature</label
+            >
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+            <label class="form-check-label" for="flexCheckDefault">
+              topping suggestions:<span class="italic-bold">
+                salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine
+                chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</span
+              >
+              (recipe in notes)
+            </label>
+          </div>
+        </div>
+        <!-- Instructions Section -->
+        <div class="sec-main">
+          <h2 class="mid-heading">Instructions</h2>
+          <div class="inst-div">
+            <h1 class="num">1</h1>
+            <p class="info">
+              Adjust the oven rack to the lower-middle position and preheat oven to 350°F (177°C).
+            </p>
+          </div>
+          <div class="inst-div">
+            <h1 class="num">2</h1>
+            <p class="info">
+              <span class="bolded"> Make the crust: </span> Using a food processor, pulse the graham
+              crackers into crumbs. Pour into a medium bowl and stir in sugar and melted butter
+              until combined. (You can also pulse it all together in the food processor.) Mixture
+              will be sandy. Press firmly into the bottom and slightly up the sides of a 9-inch or
+              10-inch springform pan. No need to grease the pan first. I use the bottom of a
+              measuring cup to pack the crust down tightly. Pre-bake for 8 minutes. Remove from the
+              oven and place the hot pan on a large piece of aluminum foil. The foil will wrap
+              around the pan for the water bath in step 4. Allow crust to slightly cool as you
+              prepare the filling.
+            </p>
+          </div>
+          <div class="inst-div">
+            <h1 class="num">3</h1>
+            <p class="info">
+              <span class="bolded"> Make the filling: </span>
+              Using a handheld or stand mixer fitted with a paddle attachment, beat the cream cheese
+              and granulated sugar together on medium-high speed in a large bowl until the mixture
+              is smooth and creamy, about 2 minutes. Add the sour cream, vanilla extract, and lemon
+              juice then beat until fully combined. On medium speed, add the eggs one at a time,
+              beating after each addition until just blended. After the final egg is incorporated
+              into the batter, stop mixing. To help prevent the cheesecake from deflating and
+              cracking as it cools, avoid over-mixing the batter as best you can.
+            </p>
+          </div>
+
+          <div class="inst-div">
+            <h1 class="num">4</h1>
+            <p class="info">
+              <span class="bolded"> Prepare the simple water bath (see note) </span>
+              Boil a pot of water. You need 1 inch of water in your roasting pan for the water bath,
+              so make sure you boil enough. I use an entire kettle of hot water. As the water is
+              heating up, wrap the aluminum foil around the spring form pan. Pour the cheesecake
+              batter on top of the crust. Use a rubber spatula or spoon to smooth it into an even
+              layer. Place the pan inside of a large roasting pan. Carefully pour the hot water
+              inside of the pan and place in the oven. (Or you can place the roasting pan in the
+              oven first, then pour the hot water in. Whichever is easier for you.)
+            </p>
+          </div>
+          <div class="inst-div">
+            <h1 class="num">5</h1>
+            <p class="info">
+              Bake cheesecake for 55-70 minutes or until the center is almost set. When it’s done,
+              the center of the cheesecake will slightly wobble if you gently shake the pan. Turn
+              the oven off and open the oven door slightly. Let the cheesecake sit in the oven in
+              the water bath as it cools down for 1 hour. Remove from the oven and water bath, then
+              cool cheesecake completely at room temperature. Then refrigerate the cheesecake for at
+              least 4 hours or overnight.
+            </p>
+          </div>
+          <div class="inst-div">
+            <h1 class="num">6</h1>
+            <p class="info">
+              Use a knife to loosen the chilled cheesecake from the rim of the springform pan, then
+              remove the rim. Using a clean sharp knife, cut into slices for serving. For neat
+              slices, wipe the knife clean and dip into warm water between each slice.
+            </p>
+          </div>
+          <div class="inst-div">
+            <h1 class="num">7</h1>
+            <p class="info">
+              Serve cheesecake with desired toppings. Cover and store leftover cheesecake in the
+              refrigerator for up to 5 days.
+            </p>
+          </div>
+          <p class="italic">
+            Source:
+            <a href="https://sallysbakingaddiction.com/classic-cheesecake/ "
+              >https://sallysbakingaddiction.com/classic-cheesecake/
+            </a>
+          </p>
+        </div>
+      </main>
+      <footer class="footer">
         <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+          created by <a href="https://www.twitter.com/geraldelorm">geraldelorm</a> -
+          devChallenges.io
         </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      </footer>
     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
