@@ -120,12 +120,14 @@ body {
   margin: 0.7rem 0;
 }
 .form-check-input {
-  transform: translateY(50%);
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  /* transform: translateY(25%); */
 }
 .label {
   font-size: 0.875rem;
   line-height: 1.5rem;
-  margin-left: 0.5rem;
+  margin-left: 2rem;
 }
 
 .inst-div {
@@ -147,7 +149,7 @@ body {
 }
 
 .info {
-  margin-left: 2rem;
+  margin-left: 1rem;
   line-height: 1.5rem;
 }
 .italic-bold {
