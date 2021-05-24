@@ -37,7 +37,7 @@
 
 |                                     Light Theme                                     |                                     Dark Theme                                      |
 | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
-| ![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen1.PNG) | ![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen2.PNG) |
+| ![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen1.png) | ![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen2.png) |
 
 ### Built With
 
