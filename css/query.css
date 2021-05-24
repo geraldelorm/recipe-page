@@ -9,14 +9,4 @@
   .top-heading {
     font-size: 3rem;
   }
-
-  .main {
-    grid-column: 2/ 13;
-  }
-  .schedule {
-    grid-column: 15/ 20;
-  }
-  .sch-item {
-    flex-direction: column;
-  }
 }
