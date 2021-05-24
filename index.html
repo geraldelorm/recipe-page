@@ -11,13 +11,6 @@
     <link rel="icon" href="./img/devchallenges.png" />
 
     <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
 
     <!-- Style Sheets -->
     <link rel="stylesheet" href="./css/main.css" />
@@ -31,21 +24,7 @@
       <header class="header">
         <h1 class="top-heading">Classic Cheesecake Recipe</h1>
         <div class="top-p">
-          <svg
-            width="13"
-            height="8"
-            viewBox="0 0 13 8"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="1.5" cy="1.5" r="1.5" fill="#C4C4C4" />
-            <circle cx="1.5" cy="6.5" r="1.5" fill="#C4C4C4" />
-            <circle cx="6.5" cy="1.5" r="1.5" fill="#C4C4C4" />
-            <circle cx="6.5" cy="6.5" r="1.5" fill="#C4C4C4" />
-            <circle cx="11.5" cy="1.5" r="1.5" fill="#C4C4C4" />
-            <circle cx="11.5" cy="6.5" r="1.5" fill="#C4C4C4" />
-          </svg>
-
+          <img src="./img/6dots.svg" alt="" />
           <p class="intro">
             Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a
             buttery graham cracker crust, no one can deny its simple decadence. For the best
@@ -60,7 +39,7 @@
       <main class="main">
         <!-- Schedule section -->
         <div class="schedule">
-          <div class="sch-item sch-item-1">
+          <div class="sch-item sch-item-1" id="sch-item-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -78,58 +57,60 @@
               <p class="orange">12 servings</p>
             </div>
           </div>
-          <div class="sch-item">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="24px"
-              viewBox="0 0 24 24"
-              width="24px"
-              fill="#000000"
-            >
-              <path d="M0 0h24v24H0V0z" fill="none" />
-              <path
-                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-              />
-            </svg>
-            <div class="sch-item-text">
-              <p class="faint">Prep TIme</p>
-              <p class="bolded">45 minutes</p>
+          <div class="sch-down">
+            <div class="sch-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                  d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                />
+              </svg>
+              <div class="sch-item-text">
+                <p class="faint">Prep TIme</p>
+                <p class="bolded">45 minutes</p>
+              </div>
             </div>
-          </div>
-          <div class="sch-item">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="24px"
-              viewBox="0 0 24 24"
-              width="24px"
-              fill="#000000"
-            >
-              <path d="M0 0h24v24H0V0z" fill="none" />
-              <path
-                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-              />
-            </svg>
-            <div class="sch-item-text">
-              <p class="faint">Cook TIme</p>
-              <p class="bolded">1 hour</p>
+            <div class="sch-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                  d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                />
+              </svg>
+              <div class="sch-item-text">
+                <p class="faint">Cook TIme</p>
+                <p class="bolded">1 hour</p>
+              </div>
             </div>
-          </div>
-          <div class="sch-item">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="24px"
-              viewBox="0 0 24 24"
-              width="24px"
-              fill="#000000"
-            >
-              <path d="M0 0h24v24H0V0z" fill="none" />
-              <path
-                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-              />
-            </svg>
-            <div class="sch-item-text">
-              <p class="faint">Total TIme</p>
-              <p class="bolded">7,75 hours</p>
+            <div class="sch-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 0 24 24"
+                width="24px"
+                fill="#000000"
+              >
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                  d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                />
+              </svg>
+              <div class="sch-item-text">
+                <p class="faint">Total TIme</p>
+                <p class="bolded">7,75 hours</p>
+              </div>
             </div>
           </div>
         </div>
@@ -139,65 +120,66 @@
           <h3 class="mid-sm-heading">Graham Cracker Crust</h3>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
+            <label class="form-check-label label" for="flexCheckDefault">
               1 and 1/2 cups (150g) <span class="bolded">graham cracker crumbs</span> (about 10 full
               sheet graham crackers)</label
             >
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
+            <label class="form-check-label label" for="flexCheckDefault">
               5 Tablespoons (70g) <span class="bolded">unsalted butter, </span>melted</label
             >
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
+            <label class="form-check-label label" for="flexCheckDefault">
               1/4 cup (50g)<span class="bolded"> granulated sugar</span></label
             >
           </div>
           <h3 class="mid-sm-heading">Cheesecake</h3>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
+            <label class="form-check-label label" for="flexCheckDefault">
               four 8-ounce blocks (904g) full-fat <span class="bolded">cream cheese,</span> softened
               to room temperature</label
             >
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
+            <label class="form-check-label label" for="flexCheckDefault">
               1 cup (2000g) <span class="bolded">granulated sugar</span></label
             >
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
-              1 cup (240g) full-fat<span class="bolded">sour cream,</span>at room temperature</label
+            <label class="form-check-label label" for="flexCheckDefault">
+              1 cup (240g) full-fat <span class="bolded"> sour cream,</span> at room
+              temperature</label
             >
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
-              1 teaspoon<span class="bolded">pure vanilla extract</span></label
+            <label class="form-check-label label" for="flexCheckDefault">
+              1 teaspoon <span class="bolded"> pure vanilla extract</span></label
             >
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
-              3 teaspoon<span class="bolded">fresh lemon juice</span>(optional, but
+            <label class="form-check-label label" for="flexCheckDefault">
+              3 teaspoon <span class="bolded">fresh lemon juice</span> (optional, but
               recommended)</label
             >
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
+            <label class="form-check-label label" for="flexCheckDefault">
               3 large <span class="bolded"> eggs, </span>at room temperature</label
             >
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-            <label class="form-check-label" for="flexCheckDefault">
+            <label class="form-check-label label" for="flexCheckDefault">
               topping suggestions:<span class="italic-bold">
                 salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine
                 chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</span
@@ -217,6 +199,7 @@
           </div>
           <div class="inst-div">
             <h1 class="num">2</h1>
+
             <p class="info">
               <span class="bolded"> Make the crust: </span> Using a food processor, pulse the graham
               crackers into crumbs. Pour into a medium bowl and stir in sugar and melted butter
@@ -297,16 +280,5 @@
         </p>
       </footer>
     </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
