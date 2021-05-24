@@ -36,11 +36,6 @@
   .sec-2 {
     grid-row: 2/3;
   }
-
-  .sch-item-1 {
-    /* text-align: ; */
-  }
-
   .sch-down {
     flex-direction: column;
   }
