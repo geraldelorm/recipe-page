@@ -35,8 +35,8 @@
 
 ## Overview
 
-![screenshot](https://github.com/geraldelorm/recipr-page/blob/main/img/screen1.PNG)
-![screenshot](https://github.com/geraldelorm/recipr-page/blob/main/img/screen2.PNG)
+![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen1.PNG)
+![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen2.PNG)
 
 ### Built With
 
