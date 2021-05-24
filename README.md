@@ -35,7 +35,7 @@
 
 ## Overview
 
-|                                     Light Theme                                     |                                     Dark Theme                                      |
+|                                     Desktop view                                     |                                     Mobile view                                      |
 | :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
 | ![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen1.png) | ![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen2.png) |
 
