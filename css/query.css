@@ -40,7 +40,56 @@
   .sch-item-1 {
     /* text-align: ; */
   }
+
   .sch-down {
     flex-direction: column;
+  }
+  .sch-down > .sch-item {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .sch-item svg {
+    fill: var(--gray2);
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+
+  #sch-item-1 .orange {
+    color: var(--orange);
+    font-size: 1rem;
+  }
+  .faint {
+    text-transform: uppercase;
+    color: var(--gray4);
+    font-size: 0.9rem;
+  }
+  .bolded {
+    color: var(--black);
+    font-weight: 900;
+  }
+  .sch-item > div p {
+    margin: 0 0 0 0.5rem;
+    padding: o;
+  }
+  .sch-item > div .bolded {
+    font-size: 1rem;
+  }
+
+  .mid-heading {
+    font-size: 2rem;
+  }
+
+  .mid-sm-heading {
+    font-size: 1.5rem;
+  }
+
+  .label {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  .info {
+    font-size: 1.1rem;
   }
 }
