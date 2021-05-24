@@ -35,9 +35,9 @@
 
 ## Overview
 
-|                                            Light Theme                                             |                                             Dark Theme                                             |
-| :------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-| ![screenshot](https://github.com/geraldelorm/interior-consultant/blob/main/assets/img/screen1.PNG) | ![screenshot](https://github.com/geraldelorm/interior-consultant/blob/main/assets/img/screen2.PNG) |
+|                                     Light Theme                                     |                                     Dark Theme                                      |
+| :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| ![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen1.PNG) | ![screenshot](https://github.com/geraldelorm/recipe-page/blob/main/img/screen2.PNG) |
 
 ### Built With
 
